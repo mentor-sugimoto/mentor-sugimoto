@@ -6,7 +6,7 @@
 
     <div class="row">
         <div class="col-6">
-            {!! Form::model($message, ['route' => 'messages.store']) !!}
+            {!! Form::open(['route' => 'messages.store']) !!}
         
                 <div class="form-group">
                     {!! Form::label('title', 'タイトル:') !!}

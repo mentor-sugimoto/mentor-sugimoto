@@ -29,11 +29,7 @@ class MessagesController extends Controller
      */
     public function create()
     {
-        $message = new Message;
-
-        return view('messages.create', [
-            'message' => $message,
-        ]);
+        return view('messages.create');
     }
 
     /**
